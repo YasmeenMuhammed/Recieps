@@ -25,6 +25,14 @@ h1{
 .card:hover{
    scale: 105%;
     }
-.card:hover .card img{
-    transform:rotate('360deg')
+.meal-img {
+    transition: transform 0.7s ease-in-out;
+}
+
+.meal-img {
+    transition: transform 0.7s ease-in-out;
+}
+
+.group:hover .meal-img {
+    transform: translateY(-5rem) rotate(360deg);
 }
