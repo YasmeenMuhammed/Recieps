@@ -28,19 +28,19 @@ export default function NavBar() {
                     <NavLink to={'/'}>
                         <li className='text-black border cursor-pointer my-4 transition-all duration-300 border-gray-300 flex items-center gap-2 py-2 px-4 m-3 rounded-xl hover:scale-105 hover:shadow-2xl hover:shadow-orange-50 z-50 ' >
                             <GiMeal style={{ fontSize: '30px' }} />
-                            <span className='text-2xl font-bold'>Meals</span>
+                            <span className='text-xl font-bold'>Meals</span>
                         </li>
                     </NavLink>
                     <NavLink to={'/ingredients'}>
                         <li className='text-black border cursor-pointer my-4 border-gray-300 flex items-center gap-2 py-2 px-4 m-3 transition-all duration-300 rounded-xl hover:scale-105 hover:shadow-2xl hover:shadow-orange-50  ' >
                             <GiMeal style={{ fontSize: '30px' }} />
-                            <span className='text-2xl font-bold'>Ingredients</span>
+                            <span className='text-xl font-bold'>Ingredients</span>
                         </li>
                     </NavLink>
                     <NavLink to={'/area'}>
                         <li className='text-black border cursor-pointer my-4 border-gray-300 flex items-center gap-2 py-2 px-4 m-3  transition-all duration-300 rounded-xl hover:scale-105 hover:shadow-2xl hover:shadow-orange-50  ' >
                             <GiMeal style={{ fontSize: '30px' }} />
-                            <span className='text-2xl font-bold'>Area</span>
+                            <span className='text-xl font-bold'>Area</span>
                         </li>
                     </NavLink>
 

@@ -56,13 +56,16 @@ export default function CategoriesList() {
                 {category && category.map((category) => <>
 
                     <li className='mt-4'>
-                        <NavLink to={`category/${category.strCategory}`} className={' mt-4 border px-4 py-2 transition-all hover:shadow-xl shadow duration-700 rounded-3xl text-2xl border-gray-200 hover:bg-white'}>{category.strCategory}</NavLink>
+                        <NavLink to={`category/${category.strCategory}`} className={' mt-4 border px-4 py-2 transition-all hover:shadow-xl shadow duration-700 rounded-3xl text-xl border-gray-200 hover:bg-white'}>{category.strCategory}</NavLink>
                     </li>
                 </>)}
 
 
             </ul>
+            <div className="px-4">
             <Outlet />
+
+            </div>
 
         </div>
     </>

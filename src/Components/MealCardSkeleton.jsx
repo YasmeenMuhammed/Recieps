@@ -7,8 +7,8 @@ const MealCardSkeleton = () => {
             <div className="flex justify-center -translate-y-20">
                 <Skeleton 
                     circle 
-                    width={224} 
-                    height={224} 
+                    width={180} 
+                    height={180} 
                     containerClassName="avatar-skeleton"
                 />
             </div>
