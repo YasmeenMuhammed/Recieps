@@ -8,8 +8,8 @@ import MealDetails from './Components/MealDetails';
 import Categories from './Pages/Categories';
 import AreaDetails from './Components/AreaDetails';
 import NotFound from './Pages/NotFound';
-import CategoriesList from './Components/categoriesList';
 import IngredientDetails from './Components/IngredientsDetails/IngredientDetails';
+import CategoriesList from './Components/CategoriesList/CategoriesList.jsx';
 
 const routes = createBrowserRouter([{
   path:'/' , element:<Layout/> , children:[{
