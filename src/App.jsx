@@ -6,10 +6,10 @@ import Ingredients from './Pages/Ingredients.jsx';
 import Area from './Pages/Area';
 import MealDetails from './Components/MealDetails';
 import Categories from './Pages/Categories';
-import CategoriesList from './Components/CategoriesList';
-import IngredientDetails from './Components/ingredientDetails.jsx';
 import AreaDetails from './Components/AreaDetails';
 import NotFound from './Pages/NotFound';
+import CategoriesList from './Components/categoriesList';
+import IngredientDetails from './Components/IngredientsDetails/IngredientDetails';
 
 const routes = createBrowserRouter([{
   path:'/' , element:<Layout/> , children:[{

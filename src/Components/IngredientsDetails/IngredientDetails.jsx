@@ -1,8 +1,8 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
-import MealDetailsSkeleton from './MealDetailsSkeleton';
-import MealCardSkeleton from './MealCardSkeleton';
+import MealDetailsSkeleton from '../MealDetailsSkeleton';
+import MealCardSkeleton from '../MealCardSkeleton';
 
 export default function IngredientDetails() {
     const { ing } = useParams();
