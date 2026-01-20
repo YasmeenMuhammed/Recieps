@@ -21,18 +21,27 @@ h1{
         background-color: rgb(238, 227, 213);
         color: inset;
     }
- 
-.card:hover{
-   scale: 105%;
-    }
-.meal-img {
-    transition: transform 0.7s ease-in-out;
+ .meal-card {
+  transition: all 0.3s ease;
+}
+
+.meal-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.meal-card:active {
+  transform: scale(1.05);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
 .meal-img {
-    transition: transform 0.7s ease-in-out;
+  transition: transform 0.7s ease-in-out;
+  -webkit-transition: transform 0.7s ease-in-out;
 }
 
-.group:hover .meal-img {
-    transform: translateY(-5rem) rotate(360deg);
+.meal-card:hover .meal-img,
+.meal-card:active .meal-img {
+  transform: translateY(-5rem) rotate(360deg);
+  -webkit-transform: translateY(-5rem) rotate(360deg);
 }
