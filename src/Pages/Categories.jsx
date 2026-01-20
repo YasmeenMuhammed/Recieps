@@ -55,7 +55,7 @@ export default function Categories() {
       <section className=' bg-[#F4F2EE]'>
 
 
-        <div className="container my-10">
+        <div className="container my-10 px-4">
           <div className="cards grid sm:grid-cols-12  gap-8">
             {meals && meals.map((meal) => <Card key={meal.idMeal} meal={meal} />)}
           </div>

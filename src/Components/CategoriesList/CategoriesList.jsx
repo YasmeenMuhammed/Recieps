@@ -48,15 +48,15 @@ export default function CategoriesList() {
 
         </div>
 
-        <div className=" list p-5">
+        <div className=" list p-5 px-8">
             <ul className='hidden md:flex  gap-6 py-3 text-gray-400 flex-wrap gap  p-5 border-b border-b-gray-300 pb-7'>
                 <li className='mt-4'>
-                    <NavLink to={`/`} className={' mt-4 border px-4 py-2 transition-all hover:shadow-xl shadow duration-100 rounded-3xl text-2xl border-gray-200 hover:bg-white'}>All</NavLink>
+                    <NavLink to={`/`} className={' mt-4 border px-4 py-2 transition-all hover:shadow-xl shadow duration-100 rounded-3xl text-lg border-gray-200 hover:bg-white'}>All</NavLink>
                 </li>
                 {category && category.map((category) => <>
 
                     <li className='mt-4'>
-                        <NavLink to={`category/${category.strCategory}`} className={' mt-4 border px-4 py-2 transition-all hover:shadow-xl shadow duration-700 rounded-3xl text-xl border-gray-200 hover:bg-white'}>{category.strCategory}</NavLink>
+                        <NavLink to={`category/${category.strCategory}`} className={' mt-4 border px-4 py-2 transition-all hover:shadow-xl shadow duration-700 rounded-3xl text-lg border-gray-200 hover:bg-white'}>{category.strCategory}</NavLink>
                     </li>
                 </>)}
 
