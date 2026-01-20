@@ -22,3 +22,9 @@ h1{
         color: inset;
     }
  
+.card:hover{
+   scale: 105%;
+    }
+.card:hover .card img{
+    transform:rotate('360deg')
+}
