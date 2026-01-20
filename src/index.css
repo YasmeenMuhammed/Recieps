@@ -21,14 +21,4 @@ h1{
         background-color: rgb(238, 227, 213);
         color: inset;
     }
-
-    @layer utilities {
-  @media (hover: none) {
-    .card:active {
-      transform: scale(1.05);
-    }
-    .card:active img {
-      transform: rotate(360deg) translateY(-5rem); 
-    }
-  }
-}
+ 
