@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+body{
+    font-family: cursive;
+}
+h1{
+    font-family: Pacifico, cursive;
+}
+ .active li{
+        @apply shadow-lg  shadow-orange-300 bg-[#F29724] text-white 
+    }
+
+ .active{
+        background-color: black;
+        color: white;
+        border: none;
+    }
+
+    ::selection{
+        background-color: rgb(238, 227, 213);
+        color: inset;
+    }
