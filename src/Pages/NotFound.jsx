@@ -1,5 +1,5 @@
 import React from 'react'
-import error from '../assets/E-Commerce-404-Page-Facebook.webp'
+import error from '/public/E-Commerce-404-Page-Facebook.webp'
 import { useNavigate } from 'react-router-dom';
 
 export default function NotFound() {
