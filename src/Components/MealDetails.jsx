@@ -47,11 +47,6 @@ for (let i = 1; i <= 20; i++) {
   }
 }
 
-
-
-
-
-
     return <>
         {mealD && <div className="container p-10">
             <div className="flex  flex-wrap">
