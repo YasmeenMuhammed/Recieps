@@ -42,6 +42,6 @@ h1{
 
 .meal-card:hover .meal-img,
 .meal-card:active .meal-img {
-  transform: translateY(-5rem) rotate(360deg);
-  -webkit-transform: translateY(-5rem) rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transform:  rotate(360deg);
 }
