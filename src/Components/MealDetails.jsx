@@ -32,7 +32,6 @@ export default function MealDetails() {
   return <MealDetailsSkeleton/>
 }
 
-
         const ingredients = [];
 
 for (let i = 1; i <= 20; i++) {

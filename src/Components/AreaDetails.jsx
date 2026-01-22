@@ -46,8 +46,8 @@ export default function AreaDetails() {
                     {
                         arDetails && arDetails.map((rec) => <>
 
-                            <div className="meal-img hover:shadow-xl sm:col-span-12 md:col-span-6 lg:col-span-3 bg-white items-center  rounded-4xl p-4 group hover:scale-105 transition-all duration-300 mt-12">
-                                <img src={rec.strMealThumb} className=' size-56 rounded-full m-auto -translate-y-20 shadow-2xl drop-shadow-2xl group-hover:rotate-360 duration-700 transition-all ' alt="" />
+                            <div className="meal-card sm:col-span-12 md:col-span-6 lg:col-span-3 bg-white items-center  rounded-4xl p-4 mt-12">
+                                <img src={rec.strMealThumb} className='meal-img size-45 rounded-full m-auto -translate-y-20 shadow-2xl drop-shadow-2xl' alt="" />
 
                                 <div className="card-content flex flex-col items-center gap-4 -translate-y-5">
                                     <h2 className='font-semibold -mt-12 text-xl'>

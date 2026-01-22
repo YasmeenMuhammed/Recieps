@@ -8,8 +8,7 @@ export default function Footer() {
 
   <div className="footer-1 sm:flex sm:justify-between sm:items-center px-3  border-b border-b-gray-500 py-2">
   <Link to={'/'}>
-  <div className="flex items-center">
-
+  <div className="flex items-center">   
   <div className="footer-img w-25">
   <img src={logo} alt="" className='w-full' />
   </div>

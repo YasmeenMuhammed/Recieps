@@ -21,7 +21,7 @@ export default function Layout() {
 
 
             </div>
-            <div className=" col-span-12 md:col-span-10 bg-[#F4F2EE] flex flex-col pt-10">
+            <div className=" col-span-12 md:col-span-10 bg-[#F4F2EE] flex flex-col pt-10 px-3">
                 <div className="min-h-screen">
                 <Outlet />
 

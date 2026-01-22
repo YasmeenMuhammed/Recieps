@@ -12,19 +12,16 @@ const MealCardSkeleton = () => {
                     containerClassName="avatar-skeleton"
                 />
             </div>
-
             <div className="card-content flex flex-col items-center gap-4 -translate-y-5">
                 <h2 className="w-3/4 -mt-12">
                     <Skeleton height={28} />
                 </h2>
-
                 <div className="flex gap-2 items-center w-1/2">
                     <Skeleton circle width={24} height={24} />
                     <div className="grow">
                         <Skeleton height={20} />
                     </div>
                 </div>
-
                 <div className="w-full px-4 mt-2">
                     <Skeleton 
                         height={48} 

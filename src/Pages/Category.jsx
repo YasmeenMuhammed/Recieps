@@ -26,7 +26,7 @@ useEffect(()=>{getAllMeals();
 
 if(!meals){
   return  <>
-  <div className="grid md:grid-cols-4 gap-10">
+  <div className="grid md:grid-cols-4 gap-10 mt-4">
     <div className="md:col-span-1">
   <MealCardSkeleton/>
 
@@ -47,7 +47,6 @@ if(!meals){
   
   </>
 }
-
 
   return <> 
 
