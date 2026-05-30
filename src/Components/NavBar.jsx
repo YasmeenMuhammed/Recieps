@@ -20,7 +20,7 @@ export default function NavBar() {
 
         <nav className={` bg-white h-screen fixed top-0 left-0 bottom-0 md:translate-x-0 -translate-x-100 ${isOpen ?'translate-x-0 w-65'  :'-translate-x-100'   } transition-transform duration-300`}>
       
-            <div className="nav-logo w-70 p-7">
+            <div className="nav-logo w-54 p-7">
                 <img src={logo} alt="" className='w-full' />
             </div>
             <div className="nav-list">
